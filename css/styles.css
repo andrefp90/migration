@@ -1,0 +1,214 @@
+/*Main section body and div*/
+#page{
+border: 4px double rgb(146,142,79);
+position:absolute;
+padding: 2%;
+margin: 2%;
+background:url(../images/track.png) no-repeat center center ;
+background-attachment:fixed;
+background-color:#FFD9A2;
+overflow:auto;}
+
+#content{
+float:left;
+width:60%;
+margin:1%;
+clear:both;}
+
+/*give body background color font weight and size*/
+body{
+background-image:url(../images/pattern_137.gif);
+font-family: Arial, "gil sans" ,sans-serif;
+font-weight:normal;
+font-size:1em;
+line-height:1.2em;
+width:90%;
+}
+
+/*Fonts from the web*/
+@font-face{
+font-family: 'Shadows Into Light Two', cursive;
+src:url('http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+font-family: "Raleway", sans-serif;
+src:url('http://fonts.googleapis.com/css?family=Raleway:400,500');
+font-family: 'Lato', sans-serif;
+src:url('http://fonts.googleapis.com/css?family=Lato');
+}
+
+/*headers 1,2,3,blocquote and paragraph styles */
+h1{
+font-family:'Shadows Into Light Two',cursive;
+color:rgb(146,142,79);
+text-align:center;
+text-shadow:0.025em 0.025em #587541;
+font-size:2em ;
+margin:3% ;
+padding:5%;
+}
+h2 {
+font-family: Raleway, sans-serif;
+color:#848B43;
+text-indent:1%;
+text-decoration:underline;
+font-size:1em;
+margin:3% auto 3%  auto;
+padding:2%;
+}
+h3{
+font-family: Lato, sans-serif;
+font-weight: bold;
+color:#B3BD5B;
+font-size:1.500em;
+margin:3% auto 3% auto;
+padding: 2%;
+clear:both;}
+
+p.text{
+text-indent:2%;
+text-align:left;
+margin:1% auto 1% auto;
+padding:2%;}
+
+p.credits{
+font-style:italic;}
+
+blockquote{
+border: 0.075em dotted #DC5625;
+padding:1%;
+border-radius:1%;}
+li.navbar{
+display:inline;}
+
+
+/*navigation and lists */
+ul.navbar {
+    list-style-type: none;
+    margin-right: 1%;
+    padding: 1%;
+    text-align:center;}
+
+a:link{
+color: #8C7249;}
+a:visited{
+color:#4F4629;}
+a:hover{
+color:#DC5625 }
+a:active{
+color:#F7C43A }
+
+ol.habitat{
+list-style:circle inside;
+}
+
+/*Images and figcaption*/
+
+p.bigImage{
+max-width:80%;
+border:10px ridge #FFD9A2;
+box-shadow:5px 5px 5px #28361E;
+margin:auto;
+padding:1%;
+}
+.img{
+max-width:100%}
+
+figcaption{
+text-align:left;}
+
+
+ul.image{
+list-style-type: none;
+float:right;
+max-width:35%;
+margin:auto;
+padding:1%;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c7d872), color-stop(100%,#75890c));
+background: -webkit-linear-gradient(top, #c7d872 0%,#75890c 100%);
+background: linear-gradient(to bottom, #c7d872 0%,#75890c 100%)repeat center center;
+background-size:cover;
+}
+
+/*table and form*/
+table{
+width:600px;}
+
+th.td{
+padding:7px 10px 10px 10px;}
+
+th{
+text-transform:uppercase;
+letter-spacing:0.1em;
+font-size:90%;
+text-align:center;
+background-color:rgb(171,93,54);}
+
+tr{
+background-color:#CBC9CF;
+}
+tr.even{
+background-color:#807F83;}
+
+tr:hover{
+background-color:#c3e6e5;}
+
+fieldset{
+margin:2%}
+
+legend{
+font-style:italic;
+color:#28361E;}
+
+input[type="text"]{
+width:120px;
+border:1px solid #d6d6d6;
+padding:2px;}
+
+input[type="text"]:focus,
+input[type="text"]:hover{
+background-color: #d0e2f0;
+border:1px solid #999999;}
+
+input[type="submit"]{
+border:1px solid #006633;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#ea5507), color-stop(100%,#fb955e));
+background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
+background: linear-gradient(to bottom, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
+color:#ffffff;
+border-radius:5px;
+padding:5px;
+margin-top:20px;
+}
+
+input[type="submit"]:hover{
+border:1px solid #006633;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb955e), color-stop(49%,#ea5507), color-stop(50%,#f17432), color-stop(100%,#feccb1));
+background: -webkit-linear-gradient(top, #fb955e 0%,#ea5507 49%,#f17432 50%,#feccb1 100%);
+background: linear-gradient(to bottom, #fb955e 0%,#ea5507 49%,#f17432 50%,#feccb1 100%);
+color:#ffffff;
+cursor:pointer;}
+
+p.form{
+margin:15px 10px 10px 10px;
+}
+.title{
+float:left;
+width:160px;
+clear:left;
+padding:5px;}
+
+.submit{
+width:310px;
+margin-left:100px;
+text-align:right;}
+
+
+
+
+
+
+
+
+
+
+
+
